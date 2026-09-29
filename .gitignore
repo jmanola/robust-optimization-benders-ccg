@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Editors and operating systems
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Local solver and experiment artifacts
+*.log
+*.lp
+*.mps
+*.sav
+*.sol
+*.mst
+*.pyc
+generated_instances/
+results/
